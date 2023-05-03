@@ -63,7 +63,6 @@ class User:
     
 User.create_table()
 
-
 def random_birthdate(start_year=1950, end_year=2000):
     start_date = date(start_year, 1, 1)
     end_date = date(end_year, 12, 31)
